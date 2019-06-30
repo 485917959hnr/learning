@@ -18,4 +18,8 @@ public class HelloWorldService {
         System.out.println(activityDOS);
         return activityDOS;
     }
+
+    public void delete(){
+        userMapper.deleteTests();
+    }
 }
